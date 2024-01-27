@@ -1,13 +1,11 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
-public class EurekaApplication
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaApplication {
+    public static void main( String[] args ) {
     }
 }
