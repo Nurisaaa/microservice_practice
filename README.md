@@ -3,7 +3,7 @@
 # About Project
 
 > A simple online store application for practicing microservices 
-
+>
 
 # What we can do inside of our project?
 
